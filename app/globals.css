@@ -1,6 +1,6 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -127,4 +127,12 @@
   html {
     @apply font-mono;
   }
+}
+
+.gradient {
+  @apply bg-gradient-to-b from-emerald-500 to-teal-400;
+}
+
+.gradient-title {
+  @apply bg-gradient-to-b from-emerald-500 to-teal-400 font-bold text-transparent bg-clip-text pb-1 pr-2;
 }
